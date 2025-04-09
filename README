@@ -33,3 +33,51 @@ echo "BOT_TOKEN=your_token_here
 ADMIN_ID=7092629860
 SECRET_KEY=your_super_strong_key_here" > .env
 npm start
+
+
+💻 Commands
+Command	Description	Access
+/start	Show welcome message	All users
+enc (reply)	Encrypt replied message	All users
+dec (reply)	Decrypt replied message	All users
+/broadcast	Send message to all users	Admin only
+🌟 Preview
+Encryption
+Encryption Demo
+
+Broadcast
+Broadcast Demo
+
+🛡️ Security
+AES-256 encryption via CryptoJS
+
+Environment variable protection
+
+Admin-restricted sensitive commands
+
+Automatic HTTPS on Render
+
+📜 License
+MIT © [Your Name]
+
+Copy
+
+**Pro Tips:**
+1. Replace `yourrepo` with your actual GitHub repo
+2. Add real demo GIFs (you can record with [ScreenToGif](https://www.screentogif.com/))
+3. Customize the license if needed
+4. Update the banner image URL if you change it
+
+This README features:
+✅ Modern emoji headers  
+✅ Render deploy button  
+✅ Animated previews  
+✅ Clean command table  
+✅ Security transparency  
+✅ One-click deploy badge  
+
+Would you like me to add any additional sections like:
+- Support/Donation info
+- Feature roadmap
+- Contribution guidelines
+- Multi-language support?
