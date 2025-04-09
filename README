@@ -1,0 +1,35 @@
+# 🔒 Shadow EncryptBot
+
+_A Telegram bot that encrypts/decrypts messages with military-grade AES-256 encryption, featuring admin broadcasts and sleek UI._
+
+![Banner](https://files.catbox.moe/ljnxao.png)
+
+## ✨ Features
+
+- **End-to-End Encryption** - AES-256 secured messages
+- **Reply-Based Workflow** - Just reply `enc` or `dec` to any message
+- **Admin Broadcasts** - Send announcements to all users (restricted)
+- **Render Ready** - One-click deployment
+- **Beautiful UI** - Loading animations and formatted responses
+
+## 🚀 Deploy to Render
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+1. Click the deploy button above
+2. Set these environment variables:
+   - `BOT_TOKEN` - From [@BotFather](https://t.me/botfather)
+   - `ADMIN_ID` - Your Telegram ID (get via [@userinfobot](https://t.me/userinfobot))
+   - `SECRET_KEY` - Strong encryption key (min 32 chars)
+3. Deploy!
+
+## 🛠️ Local Development
+
+```bash
+git clone https://github.com/yourrepo/telegram-encrypt-bot.git
+cd telegram-encrypt-bot
+npm install
+echo "BOT_TOKEN=your_token_here
+ADMIN_ID=7092629860
+SECRET_KEY=your_super_strong_key_here" > .env
+npm start
